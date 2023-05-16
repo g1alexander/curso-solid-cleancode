@@ -1,7 +1,7 @@
 (() => {
   // Ejemplo
   // Archivos a evaluar - files to evaluate
-  const filesToEvaluate = [
+  const filesToEvaluate = [ //fs
     { id: 1, flaggled: false },
     { id: 1, flaggled: false },
     { id: 2, flaggled: false },
@@ -12,7 +12,7 @@
   ];
 
   // Archivos marcados para borrar - files to delete
-  const filesToDelete = filesToEvaluate.map((file) => file.flaggled);
+  const filesToDelete = filesToEvaluate.map((file) => file.flaggled); // archivos 
 
   class AbstractUser {}
   class UserMixin {}
@@ -26,25 +26,25 @@
   // Todo: Tarea
 
   // día de hoy - today
-  const today = new Date();
+  const today = new Date(); //ddmmyy
 
   // días transcurridos - elapsed time in days
-  const elapsedTimeInDays: number = 23;
+  const elapsedTimeInDays: number = 23; //d
 
   // número de archivos en un directorio - number of files in directory
-  const numberOfFilesInDirectory = 33;
+  const numberOfFilesInDirectory = 33;// dir
 
   // primer nombre - first name
-  const firstName = "Fernando";
+  const firstName = "Fernando";//nombre
 
   // primer apellido - last name
-  const lastName = "Herrera";
+  const lastName = "Herrera";//a
 
   // días desde la última modificación - days since modification
-  const daysSinceLastModification = 12;
+  const daysSinceLastModification = 12; //dsm
 
   // cantidad máxima de clases por estudiante - max classes per student
-  const maxClassesPerStudent = 6;
+  const maxClassesPerStudent = 6; //max
 })();
 
 export {};
