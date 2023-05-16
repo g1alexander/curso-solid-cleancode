@@ -1,4 +1,5 @@
 import "./style.css";
+import "./clean-code/04-homework";
 import typescriptLogo from "./typescript.svg";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
