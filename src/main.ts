@@ -1,6 +1,6 @@
 import "./style.css";
 // import "./clean-code/07.tarea";
-import "./code-smells/02-low-coupling";
+import "./solid/05-dependency-a";
 import typescriptLogo from "./typescript.svg";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
